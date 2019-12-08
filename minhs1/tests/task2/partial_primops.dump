@@ -1,0 +1,1 @@
+[Bind "main" (TypeCon Int) [] (Let [Bind "inc" (Arrow (TypeCon Int) (TypeCon Int)) [] (Letfun (Bind "inc" (Arrow (TypeCon Int) (TypeCon Int)) [] (App (Prim Add) (Num 1))))] (App (Var "inc") (Num 2)))]
